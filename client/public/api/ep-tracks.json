@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ep-track-1",
+    "title": "Father and Dad",
+    "description": "Intimate reflections on family relationships",
+    "duration": "4:36",
+    "trackNumber": 1,
+    "audioUrl": null,
+    "artworkUrl": null,
+    "isFeatureed": true,
+    "albumType": "ep",
+    "isReleased": false
+  },
+  {
+    "id": "ep-track-2",
+    "title": "Como Se Dice Gracias",
+    "description": "A bilingual exploration of gratitude (EP version)",
+    "duration": "3:59",
+    "trackNumber": 2,
+    "audioUrl": null,
+    "artworkUrl": null,
+    "isFeatureed": false,
+    "albumType": "ep",
+    "isReleased": false
+  },
+  {
+    "id": "ep-track-3",
+    "title": "Many Ways To Love",
+    "description": "Exploring love's many forms and expressions (EP version)",
+    "duration": "5:40",
+    "trackNumber": 3,
+    "audioUrl": null,
+    "artworkUrl": null,
+    "isFeatureed": false,
+    "albumType": "ep",
+    "isReleased": false
+  }
+]
