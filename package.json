@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "tsx scripts/export-data.ts && vite build",
+    "build": "tsx scripts/export-data.ts && vite build && cp dist/public/index.html dist/public/404.html",
     "preview": "vite preview --outDir dist/public",
     "check": "tsc"
   },

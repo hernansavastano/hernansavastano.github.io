@@ -12,9 +12,10 @@ for free on Cloudflare Pages.
     npm install
     npm run build        # output goes to dist/public
 
-## Hosting on Cloudflare Pages
-- Build command: `npm run build`
-- Build output directory: `dist/public`
-- Environment variable: `VITE_WEB3FORMS_KEY` = your Web3Forms access key
-  (free at https://web3forms.com — this makes the contact form email you).
-  Without it, the contact form opens the visitor's email app instead.
+## Hosting on GitHub Pages
+Every push to `main` builds and publishes the site automatically
+(see `.github/workflows/deploy.yml`).
+- Contact form: add a repository secret named `VITE_WEB3FORMS_KEY`
+  (Settings → Secrets and variables → Actions) with your free Web3Forms key
+  from https://web3forms.com. Without it, the form opens the visitor's email app.
+- Custom domain: Settings → Pages → Custom domain → `www.hernansavastano.com`.
